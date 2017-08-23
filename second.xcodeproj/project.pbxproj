@@ -14,6 +14,9 @@
 		9A07C60F1F4A706F008946CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A07C60D1F4A706F008946CC /* LaunchScreen.storyboard */; };
 		9A07C61A1F4A706F008946CC /* secondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07C6191F4A706F008946CC /* secondTests.swift */; };
 		9A07C6251F4A706F008946CC /* secondUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07C6241F4A706F008946CC /* secondUITests.swift */; };
+		9A2AA1151F4BD9DD00CB4DCD /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2AA1141F4BD9DD00CB4DCD /* UIViewController+Navigation.swift */; };
+		9A2AA1191F4BE1C500CB4DCD /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2AA1181F4BE1C500CB4DCD /* CustomButton.swift */; };
+		9A2AA11B1F4BE40D00CB4DCD /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2AA11A1F4BE40D00CB4DCD /* CustomTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		9A07C6201F4A706F008946CC /* secondUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = secondUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A07C6241F4A706F008946CC /* secondUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondUITests.swift; sourceTree = "<group>"; };
 		9A07C6261F4A706F008946CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A2AA1141F4BD9DD00CB4DCD /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		9A2AA1181F4BE1C500CB4DCD /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		9A2AA11A1F4BE40D00CB4DCD /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		9A07C6031F4A706E008946CC /* second */ = {
 			isa = PBXGroup;
 			children = (
+				9A2AA1141F4BD9DD00CB4DCD /* UIViewController+Navigation.swift */,
 				9A07C6041F4A706E008946CC /* AppDelegate.swift */,
 				9A07C6061F4A706E008946CC /* ViewController.swift */,
 				9A07C6081F4A706E008946CC /* Main.storyboard */,
+				9A2AA1181F4BE1C500CB4DCD /* CustomButton.swift */,
 				9A07C60B1F4A706F008946CC /* Assets.xcassets */,
 				9A07C60D1F4A706F008946CC /* LaunchScreen.storyboard */,
 				9A07C6101F4A706F008946CC /* Info.plist */,
+				9A2AA11A1F4BE40D00CB4DCD /* CustomTableViewController.swift */,
 			);
 			path = second;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2AA1191F4BE1C500CB4DCD /* CustomButton.swift in Sources */,
+				9A2AA1151F4BD9DD00CB4DCD /* UIViewController+Navigation.swift in Sources */,
 				9A07C6071F4A706E008946CC /* ViewController.swift in Sources */,
 				9A07C6051F4A706E008946CC /* AppDelegate.swift in Sources */,
+				9A2AA11B1F4BE40D00CB4DCD /* CustomTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +519,7 @@
 				9A07C62B1F4A706F008946CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A07C62C1F4A706F008946CC /* Build configuration list for PBXNativeTarget "secondTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				9A07C62E1F4A706F008946CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A07C62F1F4A706F008946CC /* Build configuration list for PBXNativeTarget "secondUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				9A07C6311F4A706F008946CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
